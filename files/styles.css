@@ -1,6 +1,11 @@
 nav ul li{display:inline;
 }
-img#mi-foto{
+h1{font-size: 2rem;
+font-weight: bold;
+font-family: 'Courgette', cursive;
+}
+#mi-foto{
     width: 100%;
     height: auto;
 }
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
