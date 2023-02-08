@@ -1,8 +1,22 @@
 header{
+    display: block;
     padding: 10px;
+
 }
-nav{padding: 10px;}
-nav ul li{display:inline;
+header div{
+font-size: 25px;
+    font-family: 'Average Sans', sans-serif;
+
+}
+nav{display: flexbox;
+    position: fixed;
+    right: 0;
+    top:0;
+    padding: 10px;
+text-align:end;}
+
+
+nav ul li{
     font-size: 25px;
     font-weight: 400;
     font-family: 'Average Sans', sans-serif;
@@ -24,6 +38,7 @@ color: beige;
 transition:  0.3s;
 }
 section{
+    clear: both;
     padding: 10px;
     font-size: 28px;
     font-weight: 400;
@@ -35,8 +50,12 @@ section p{
     padding-bottom: 15px;
 }
 h1{font-size: 48px;
+    display: block;
     font-weight: 700;
     font-family: 'Average Sans', sans-serif;
+}
+h3{
+    display: block;
 }
 h2{
     padding-bottom: 10px;
@@ -45,7 +64,11 @@ h2{
     font-family: 'Average Sans', sans-serif;
 }
 #mi-foto{
-    width: 100%;
+float: left;
+margin-right: 10px;   
+border: 4px outset ;
+    border-radius: 50%;
+    width: 15%;
     height: auto;
 }
 footer{
