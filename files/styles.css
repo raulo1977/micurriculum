@@ -8,14 +8,21 @@ nav ul li{display:inline;
     font-family: 'Average Sans', sans-serif;
 
 }
+nav ul li a{padding: 10px;
+}
 nav ul li::before{
+    
     font-size: 40px;
     font-weight: 400;
     font-family: 'Average Sans', sans-serif;
 
     content: " »";
 }
-
+nav a:link {transition:  0.3s;}
+nav a:hover{background-color: chocolate;
+color: beige;
+transition:  0.3s;
+}
 section{
     padding: 10px;
     font-size: 28px;
@@ -40,4 +47,10 @@ h2{
 #mi-foto{
     width: 100%;
     height: auto;
+}
+footer{
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Average Sans', sans-serif;
 }
