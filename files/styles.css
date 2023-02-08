@@ -3,10 +3,29 @@ header, nav, section{
     padding-top: 10px;
 }
 nav ul li{display:inline;
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'Average Sans', sans-serif;
+
+}
+section{
+    font-size: 28px;
+    font-weight: 400;
+    font-family: 'Average Sans', sans-serif;
+    line-height: 30px;
+
+}
+section p{
+    padding-bottom: 15px;
 }
 h1{font-size: 48px;
     font-weight: 700;
-font-family: 'Average Sans', sans-serif;
+    font-family: 'Average Sans', sans-serif;
+}
+h2{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Average Sans', sans-serif;
 }
 #mi-foto{
     width: 100%;
