@@ -25,10 +25,13 @@ header  {
 }
 header ul li {display: inline;}
 header ul {text-align: end;}
+header ul li a {color:white;}
 #mifoto {
   display: block;
+  border: 1px solid brown;
+  border-radius: 5px;
   float: left;
-  padding: 10px;
+  margin: 20px;
 }
 
 main h2 {
