@@ -1,114 +1,20 @@
-header{
-    padding: 10px;
-
-}
-header div{
-font-size: 25px;
-    font-family: 'Average Sans', sans-serif;
-
-}
-nav{
-    position:absolute;
-    right: 0;
-    top:0;
-    padding: 10px;
-
+/*QuickReset*/*{margin:0;box-sizing:border-box;    font-family: 'Average Sans', sans-serif;
 }
 
 
-nav ul li{
-    font-size: 25px;
-    font-weight: 400;
-    font-family: 'Average Sans', sans-serif;
+body {                /* body - or any parent wrapper */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  main {
+    flex: 1;
+    padding: 25px;
+  }
 
-}
-nav ul li  {padding: 5px;
-
-}
-nav ul li::before{
-    
-
-
-    content: "»";
-}
-nav ul li::after{
-    
-
-
-    content: ".-";
-}
-nav a:link {transition:  0.3s;}
-nav a:hover{background-color: chocolate;
-color: beige;
-transition:  0.3s;
-}
-section{
-    clear: both;
-    
-margin-top: 10px;
-    padding: 10px;
-    font-size: 28px;
-    font-weight: 400;
-    font-family: 'Average Sans', sans-serif;
-    line-height: 30px;
-
-}
-section p{
-    padding-bottom: 15px;
-}
-h1{font-size: 60px;
-        font-weight: 700;
-    font-family: 'Average Sans', sans-serif;
-    color: teal;
-}
-
-h2{
-    padding-bottom: 10px;
-    font-size: 40px;
-    font-weight: 700;
-    font-family: 'Average Sans', sans-serif;
-}
-#mi-foto{
-float: left;
-
-margin-right: 10px;   
-border: 6px outset ;
-    border-radius: 50%;
-    width: 120px;
-    height: auto;
-}
-footer{
-    color:teal;
-    background-color: gainsboro;
-    padding: 10px;
-    font-size: 20px;
-    font-family: 'Average Sans', sans-serif;
-    position: fixed;
-    bottom: 0%;
-    width: 100%;
-}
-@media screen and (max-width: 960px) {
-    #mi-foto {width: 100px;}
-    h1{font-size: 40px;}
-    h2{font-size: 35px;}
- nav ul li{font-size: 20px;}   
-    
-}
-@media screen and (max-width: 700px) {
-    
-    h1{font-size: 30px;}
-
-}
-@media screen and (max-width: 600px) {
-    
-    nav{position: relative;}
- nav ul li{display: inline;
-}
-nav ul li::after, nav ul li::before{content:"";}
-}
-@media screen and (max-width: 400px) {
-    nav ul li {font-size: 20px;}
-
-    header div {font-size: 20px;}
-    section{font-size: 20px;}
-}
+  header{padding: 25px; background-color: steelblue;color: aliceblue;}
+  footer{text-align: center;padding: 10px;
+background-color: black;
+color: white;}
+footer a:link{color: bisque;}
