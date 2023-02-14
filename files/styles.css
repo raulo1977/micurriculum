@@ -18,3 +18,11 @@ body {                /* body - or any parent wrapper */
 background-color: black;
 color: white;}
 footer a:link{color: bisque;}
+#mifoto{
+ display: block;
+  float: left;
+  padding: 10px;
+}
+main h2 {padding: 10px;}
+main p{font-size: 20px;
+  line-height: 30px;}
