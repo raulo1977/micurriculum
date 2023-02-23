@@ -7,41 +7,39 @@
 
 
 body {
-  /* body - or any parent wrapper */
   display: flex;
   flex-direction: column;
   min-height: 100vh;
 }
 
+.box{display: flex; flex-wrap: nowrap;}
+
 main {
   flex: 1;
   padding: 25px;
+  font-size: 20px;
+  font-weight: 600;
+
+background-color: aliceblue;
 }
+main p{margin-bottom: 20px;}
+
+
 
 header  {
   padding: 25px;
-  background-color: steelblue;
-  color: aliceblue;
+  background-color:rgb(17, 44, 66);
+  color:rgb(232, 248, 248);
 }
 header ul li {display: inline;}
 header ul {text-align: end;}
 header ul li a {color:white;}
-#mifoto {
-  display: block;
-  border: 1px solid brown;
-  border-radius: 5px;
-  float: left;
-  margin: 20px;
-}
 
-main h2 {
-  padding: 10px;
-}
-
-main p {
-  font-size: 20px;
-}
-
+main{color: color:rgb(28, 28, 54);}
+main h2{margin-bottom:  10px;}
+main img{margin-left: 20px; 
+  border-radius: 20px 0px 20px 0px;
+border: 5px solid rgb(17, 44, 66);}
 footer {
   background-color: black;
   text-align: center;
