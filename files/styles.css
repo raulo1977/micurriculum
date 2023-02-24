@@ -5,10 +5,17 @@
   font-family: 'Average Sans', sans-serif;
 }
 
-.ocultar{
+.ocultar {
   display: none;
 }
-.mostrar{display: block;}
+
+.mostrar {
+  display: block;
+}
+
+.activo {
+  background-color: rgb(34, 137, 145);
+}
 
 body {
   display: flex;
@@ -16,7 +23,12 @@ body {
   min-height: 100vh;
 }
 
-.box{display: flex; flex-wrap: nowrap;}
+.box {
+  display: flex;
+  flex-wrap: nowrap;
+  
+}
+.div50{width: 50%;}
 
 section {
   flex: 1;
@@ -24,34 +36,69 @@ section {
   font-size: 20px;
   font-weight: 600;
 
-background-color: aliceblue;
+  background-color: aliceblue;
 }
-main p{margin-bottom: 20px;}
+
+main p {
+  margin-bottom: 20px;
+}
 
 
 
-header  {
+header {
   padding: 25px;
-  background-color:rgb(17, 44, 66);
-  color:rgb(232, 248, 248);
+  background-color: rgb(17, 44, 66);
+  color: rgb(232, 248, 248);
 }
-header ul li {display: inline;}
-header ul {text-align: end;}
-header ul li a {color:white;text-decoration: none;}
- .activo{background-color: rgb(34, 137, 145);}
 
-header ul li a:hover{
+header ul li {
+  display: inline;
+}
+
+header ul {
+  text-align: end;
+}
+
+header ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+
+header ul li a:hover {
   color: rgb(17, 44, 66);
-font-weight: bolder;
+  font-weight: bolder;
   background-color: beige;
   transition: background-color 1s;
 }
-header ul li a:active{background-color:orange; color:red}
-section{ color:rgb(28, 28, 54);}
-section h2{margin-bottom:  10px;}
-section img{margin-left: 20px; 
+
+header ul li a:active {
+  background-color: orange;
+  color: red
+}
+
+section {
+  color: rgb(28, 28, 54);
+}
+
+section h2 {
+  margin-bottom: 20px;
+}
+
+section h3 {margin-bottom: 15px;}
+.bordeazul {
+  margin-left: 20px;
   border-radius: 20px 0px 20px 0px;
-border: 5px solid rgb(17, 44, 66);}
+  border: 5px solid rgb(17, 44, 66);
+}
+
+textarea{width: 95%; min-width: 300px; font-size: 20px; margin-top: 15px; border-radius: 5px;}
+input{ min-width: 250px;
+  border-radius: 5px;
+  margin-left: 10px; 
+height: 30px;
+font-size: 20px;}
+button{font-size: 20px; margin: 0 0 0 60%; width: 120px; height: 40px;}
 footer {
   background-color: black;
   text-align: center;
@@ -65,7 +112,11 @@ footer a {
 @media (max-width: 600px) {
   .box {
     flex-direction: column-reverse;
-    flex-wrap:nowrap;
+    flex-wrap: nowrap;
   }
-  section img{ width: 100% ;margin:10px;}
+
+#mifoto {
+    width: 100%;
+    margin: 10px;
+  }
 }
