@@ -27,9 +27,13 @@ body {
 .box {
   display: flex;
   flex-wrap: nowrap;
-  
+
 }
-.div50{min-width: 50%;display: block;}
+
+.div50 {
+  min-width: 50%;
+  display: block;
+}
 
 section {
   flex: 1;
@@ -44,15 +48,17 @@ main p {
   margin-bottom: 20px;
 }
 
-header h1{font-size: 40px;
-  text-shadow: 4px 0  rgb(17, 44, 66);}
+header h1 {
+  font-size: 40px;
+  text-shadow: 4px 0 rgb(17, 44, 66);
+}
 
 header {
   padding: 25px;
   background-color: rgb(17, 44, 66);
   color: rgb(232, 248, 248);
-  background-image: url("../images/fotoperfil.jpg"), linear-gradient(to right , rgb(255, 159, 95), rgb(17, 44, 66)) ;
-  background-blend-mode:lighten ;
+  background-image: url("../images/fotoperfil.jpg"), linear-gradient(to right, rgb(255, 159, 95), rgb(17, 44, 66));
+  background-blend-mode: lighten;
 }
 
 header ul li {
@@ -68,7 +74,7 @@ header ul li a {
   background-color: rgba(255, 255, 255, 0.205);
   text-decoration: none;
   padding: 10px;
-  border: 1px dotted  rgb(17, 44, 66);
+  border: 1px dotted rgb(17, 44, 66);
   line-height: 45px;
 }
 
@@ -92,32 +98,62 @@ section h2 {
   margin-bottom: 20px;
 }
 
-section h3 {margin-bottom: 15px;}
+section h3 {
+  margin-bottom: 15px;
+}
+
 .bordeazul {
   margin-left: 20px;
   border-radius: 20px 0px 20px 0px;
   border: 5px solid rgb(17, 44, 66);
 }
-section ul{
+
+section ul {
   list-style: none;
-    padding: 0px;
+  padding: 0px;
 
 }
 
-section li{padding-bottom: 15px;}
-section ul li:before
-{
-    content: '\25B6';
-    margin: 0 1em;    /* any design */
-} 
+section li {
+  padding-bottom: 15px;
+}
 
-textarea{width: 95%; min-width: 300px; font-size: 20px; margin-top: 15px; border-radius: 5px;}
-input{ min-width: 230px;
+section ul li:before {
+  content: '\25B6';
+  margin: 0 1em;
+  /* any design */
+}
+
+textarea {
+  width: 95%;
+  min-width: 300px;
+  font-size: 20px;
+  margin-top: 15px;
   border-radius: 5px;
-  margin-left: 10px; 
-height: 30px;
-font-size: 20px;}
-button{font-size: 20px; margin: 0 0 0 60%; width: 120px; height: 40px;}
+}
+
+input {
+  min-width: 230px;
+  border-radius: 5px;
+  margin-left: 10px;
+  height: 30px;
+  font-size: 20px;
+}
+
+input:invalid {
+  background-color: rgb(243, 160, 157);
+  border: none;
+  outline: 2px solid red;
+  border-radius: 5px;
+}
+
+button {
+  font-size: 20px;
+  margin: 0 0 0 60%;
+  width: 120px;
+  height: 40px;
+}
+
 footer {
   background-color: black;
   text-align: center;
@@ -127,20 +163,38 @@ footer {
 footer a {
   color: aliceblue;
 }
-  .redesSociales{display: flex; flex-flow: column;}
-a img {vertical-align: middle;
-text-align: center;}
-.redesSociales a{text-decoration: none; font-size: 15px; color: rgb(17, 44, 66);}
+
+.redesSociales {
+  display: flex;
+  flex-flow: column;
+}
+
+a img {
+  vertical-align: middle;
+  text-align: center;
+}
+
+.redesSociales a {
+  text-decoration: none;
+  font-size: 15px;
+  color: rgb(17, 44, 66);
+}
+
 @media (max-width: 600px) {
-  .redesSociales{display: flex; flex-flow: row;}
+  .redesSociales {
+    display: flex;
+    flex-flow: row;
+  }
+
   .box {
     flex-direction: column-reverse;
     flex-wrap: nowrap;
   }
 
-#mifoto {
+  #mifoto {
     width: 100%;
-    margin: 0 auto;
+    margin: 10px auto;
+
   }
 }
 
