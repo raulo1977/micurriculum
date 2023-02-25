@@ -18,8 +18,8 @@
     <header>
         <ul>
             <li><a id="biografia" class="activo menulink" href="index.html">Información Personal</a></li>
-            <li><a id="experiencia" class="menulink" href="experiencia.html">Experiencia</a></li>
             <li><a id="habilidades" class="menulink" href="habilidades.html">Formación</a></li>
+            <li><a id="experiencia" class="menulink" href="experiencia.html">Experiencia</a></li>
             <li><a id="contacto" class="menulink" href="contacto.html">Contacto</a></li>
         </ul>
         <h1>Mi Curriculum Vitae</h1>
@@ -39,18 +39,28 @@
                     <li>Fecha de Nacimiento: 20/11/1977</li>
                     <li>Dirección: Ciudad de Buenos Aires</li>
                 </ul>
-                
-                
-                
+
+
+
             </div>
             <div class="div50"><img class="bordeazul" id="mifoto" src="images/musico.jpg" alt=""></div>
 
         </div>
     </section>
     <section class="ocultar">
-        <h2>Experiencia</h2>
+        <h2>Formación académica</h2>
         <div class="caja">
 
+            <div>
+                
+            </div>
+            <div></div>
+
+        </div>
+    </section>
+    <section class="ocultar">            <h2>Experiencia y habilidades</h2>
+
+        <div class="box">
             <div>
                 <p>Trabajando en la Secretaría de Articulación de Política Social del Ministerio de Desarrollo Social de
                     la
@@ -84,15 +94,8 @@
                     sé y lo que me gusta hacer. </p>
                 <p>Interesado AI y IoT creo que el futuro va por alli.</p>
 
-            </div>
-            <div></div>
 
-        </div>
-    </section>
-    <section class="ocultar">
-        <div class="box">
-            <h2>Formación</h2>
-            <div></div>
+            </div>
             <div></div>
         </div>
     </section>
@@ -113,17 +116,19 @@
             </div>
             <div class="div50">
                 <h3>Enviarme un mensaje</h3>
+                <form></form>
                 <table>
                     <tr>
                         <td><label for="nombre">Nombre:</label></td>
-                        <td> <input type="text" name="nombre" placeholder="Escribí acá tu nombre"></td>
+                        <td> <input type="text" id="nombre" name="nombre" placeholder="Escribí acá tu nombre"></td>
                     </tr>
                     <td> <label for="email">Email:</label></td>
-                    <td> <input type="email" name="email" placeholder="Su correo electrónico">
+                    <td> <input type="email" id="email" name="email" placeholder="tu@email">
                     </td>
                 </table>
-                <textarea name="mensaje" id="" cols="35" rows="10" placeholder="Escribí acá tu mensaje"></textarea>
+                <textarea name="mensaje" id="mensaje" cols="35" rows="5" placeholder="Escribí acá tu mensaje"></textarea>
                 <div><button type="submit">Enviar</button></div>
+            </form>
             </div>
 
         </div>
