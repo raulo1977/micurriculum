@@ -44,7 +44,7 @@ section {
   background-color: aliceblue;
 }
 
-main p {
+section p {
   margin-bottom: 20px;
 }
 
@@ -114,15 +114,21 @@ section ul {
 
 }
 
-section li {
+section ul li {
   padding-bottom: 15px;
+  margin-left: 20px;
+  text-indent: -28px;
 }
+
+
+
 
 section ul li:before {
   content: '\25B6';
-  margin: 0 1em;
-  /* any design */
+  padding-right: 10px;
 }
+
+
 
 textarea {
   width: 95%;
@@ -196,6 +202,7 @@ a img {
     margin: 10px auto;
 
   }
+  section ul li {text-align: center;}
 }
 
 /* width */

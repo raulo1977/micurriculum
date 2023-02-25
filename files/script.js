@@ -27,7 +27,6 @@ function enviarCorreo(nombre, asunto, correo, texto) {
         + "?subject=" + asunto
         + "&body=" + texto;
 
-    alert(envio);
     window.location.href = encodeURI(envio);
 
 }
