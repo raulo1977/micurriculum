@@ -50,7 +50,7 @@ header {
   padding: 25px;
   background-color: rgb(17, 44, 66);
   color: rgb(232, 248, 248);
-  background-image: url("images/fotoperfil.jpg"), linear-gradient(to right , rgb(255, 159, 95), rgb(17, 44, 66)) ;
+  background-image: url("../images/fotoperfil.jpg"), linear-gradient(to right , rgb(255, 159, 95), rgb(17, 44, 66)) ;
   background-blend-mode:lighten ;
 }
 
