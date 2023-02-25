@@ -11,26 +11,45 @@
     <link href="https://fonts.googleapis.com/css2?family=Average+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="files/styles.css">
 
-    <title>Mi CV</title>
+    <title>Mi Curriculum Vitae - Raúl Alberto Rodriguez</title>
 </head>
 
 <body>
     <header>
         <ul>
-            <li><a id="biografia" class="activo menulink" href="index.html">Bio</a></li>
+            <li><a id="biografia" class="activo menulink" href="index.html">Información Personal</a></li>
             <li><a id="experiencia" class="menulink" href="experiencia.html">Experiencia</a></li>
-            <li><a id="habilidades" class="menulink" href="habilidades.html">Habilidades</a></li>
+            <li><a id="habilidades" class="menulink" href="habilidades.html">Formación</a></li>
             <li><a id="contacto" class="menulink" href="contacto.html">Contacto</a></li>
         </ul>
-        <h1>Raúl Alberto Rodriguez</h1>
+        <h1>Mi Curriculum Vitae</h1>
 
 
     </header>
     <section>
 
-        <h2>Biografía</h2>
+        <h2>Información Personal</h2>
 
         <div class="box">
+
+            <div>
+                <ul>
+                    <li>Raúl Alberto Rodriguez</li>
+                    <li>Edad: <span id="edad"></span> años</li>
+                    <li>Fecha de Nacimiento: 20/11/1977</li>
+                    <li>Dirección: Ciudad de Buenos Aires</li>
+                </ul>
+                
+                
+                
+            </div>
+            <div><img class="bordeazul" id="mifoto" src="images/musico.jpg" alt=""></div>
+
+        </div>
+    </section>
+    <section class="ocultar">
+        <h2>Experiencia</h2>
+        <div class="caja">
 
             <div>
                 <p>Trabajando en la Secretaría de Articulación de Política Social del Ministerio de Desarrollo Social de
@@ -66,22 +85,13 @@
                 <p>Interesado AI y IoT creo que el futuro va por alli.</p>
 
             </div>
-            <div><img class="bordeazul" id="mifoto" src="images/musico.jpg" alt=""></div>
-
-        </div>
-    </section>
-    <section class="ocultar">
-        <h2>Experiencia</h2>
-        <div class="caja">
-
-            <div></div>
             <div></div>
 
         </div>
     </section>
     <section class="ocultar">
         <div class="box">
-            <h2>Habilidades</h2>
+            <h2>Formación</h2>
             <div></div>
             <div></div>
         </div>
@@ -92,30 +102,32 @@
 
             <div class="div50">
                 <h3>Mis redes sociales</h3>
-                <div><a href="https://www.linkedin.com/in/raulorodriguez/" target="_blank"><img
-                            src="images/icons8-linkedin-48.png" alt="LinkedIn"></a></div>
-                <div><a href="https://www.instagram.com/raulo.rodriguez" target="_blank"><img
-                            src="images/icons8-instagram-48.png" alt="Instagram"></a></div>
-                <div><a href="https://www.tiktok.com/@raulo.rodriguez" target="_blank"><img
-                            src="images/icons8-tiktok-48.png" alt="TikTok"></a></div>
+                <div class="redesSociales">
+                    <div><a href="https://www.linkedin.com/in/raulorodriguez/" target="_blank"><img
+                                src="images/icons8-linkedin-48.png" alt="LinkedIn"><span>LinkedIn</span></a></div>
+                    <div><a href="https://www.instagram.com/raulo.rodriguez" target="_blank"><img
+                                src="images/icons8-instagram-48.png" alt="Instagram"><span>Instagram</span> </a></div>
+                    <div><a href="https://www.tiktok.com/@raulo.rodriguez" target="_blank"><img
+                                src="images/icons8-tiktok-48.png" alt="TikTok"><span>TikTok</span></a></div>
+                </div>
             </div>
             <div class="div50">
-            <h3>Enviarme un mensaje</h3>
-            <table>
-                <tr>
-                    <td><label for="nombre">Nombre:</label></td>
-                    <td> <input type="text" name="nombre" placeholder="Escribí acá tu nombre"></td>
-                </tr>
-                <td> <label for="email">Email:</label></td>
-                <td> <input type="email" name="email" placeholder="Su correo electrónico">
-                </td>
-            </table>
-            <textarea name="mensaje" id="" cols="35" rows="10" placeholder="Escribí acá tu mensaje"></textarea>
-            <div><button type="submit">Enviar</button></div>
-        </div>
+                <h3>Enviarme un mensaje</h3>
+                <table>
+                    <tr>
+                        <td><label for="nombre">Nombre:</label></td>
+                        <td> <input type="text" name="nombre" placeholder="Escribí acá tu nombre"></td>
+                    </tr>
+                    <td> <label for="email">Email:</label></td>
+                    <td> <input type="email" name="email" placeholder="Su correo electrónico">
+                    </td>
+                </table>
+                <textarea name="mensaje" id="" cols="35" rows="10" placeholder="Escribí acá tu mensaje"></textarea>
+                <div><button type="submit">Enviar</button></div>
+            </div>
 
         </div>
-        
+
     </section>
     <footer>Contacto: <a href="mailto:raulo.rodriguez@gmail.com">raulo.rodriguez@gmail.com</a> </footer>
     <script src="files/script.js"></script>

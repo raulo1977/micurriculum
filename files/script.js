@@ -13,6 +13,17 @@ function ocultarMostrar(enlace) {
             secciones[i].classList.add("ocultar");
         }
         enlaces[enlace].classList.add("activo");
-        secciones[enlace].classList.add("mostrar")
+        secciones[enlace].classList.add("mostrar");
+        secciones[enlace].classList.remove("ocultar")
     }
+}
+edad.innerHTML=calcularAños(20,11,1977);
+function calcularAños(dia, mes, año) {
+    var today = new Date();
+    //Restamos los años
+    años = today.getFullYear() - año;
+    // Si no ha llegado su cumpleaños le restamos el año por cumplir (Los meses en Date empiezan en 0, por eso tenemos que sumar 1)
+    if (mes > (today.getMonth() + 1) || dia > today.getDay())
+        años--;
+    return años;
 }

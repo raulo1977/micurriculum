@@ -43,12 +43,15 @@ main p {
   margin-bottom: 20px;
 }
 
-
+header h1{font-size: 40px;
+  text-shadow: 4px 0  rgb(17, 44, 66);}
 
 header {
   padding: 25px;
   background-color: rgb(17, 44, 66);
   color: rgb(232, 248, 248);
+  background-image: url("/images/fotoperfil.jpg"), linear-gradient(to right, rgb(17, 44, 66) , aliceblue) ;
+  background-blend-mode:lighten ;
 }
 
 header ul li {
@@ -62,12 +65,13 @@ header ul {
 header ul li a {
   color: white;
   text-decoration: none;
+  padding: 10px;
+  border: 1px dotted  rgb(17, 44, 66);
 }
 
 
 header ul li a:hover {
   color: rgb(17, 44, 66);
-  font-weight: bolder;
   background-color: beige;
   transition: background-color 1s;
 }
@@ -108,8 +112,12 @@ footer {
 footer a {
   color: aliceblue;
 }
-
+  .redesSociales{display: flex; flex-flow: column;}
+a img {vertical-align: middle;
+text-align: center;}
+.redesSociales a{text-decoration: none; font-size: 15px; color: rgb(17, 44, 66);}
 @media (max-width: 600px) {
+  .redesSociales{display: flex; flex-flow: row;}
   .box {
     flex-direction: column-reverse;
     flex-wrap: nowrap;
