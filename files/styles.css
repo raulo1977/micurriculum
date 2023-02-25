@@ -50,7 +50,7 @@ header {
   padding: 25px;
   background-color: rgb(17, 44, 66);
   color: rgb(232, 248, 248);
-  background-image: url("/images/fotoperfil.jpg"), linear-gradient(to right, rgb(17, 44, 66) , aliceblue) ;
+  background-image: url("/images/fotoperfil.jpg"), linear-gradient(to right , rgb(255, 159, 95), rgb(17, 44, 66)) ;
   background-blend-mode:lighten ;
 }
 
@@ -67,6 +67,7 @@ header ul li a {
   text-decoration: none;
   padding: 10px;
   border: 1px dotted  rgb(17, 44, 66);
+  line-height: 45px;
 }
 
 
@@ -125,6 +126,6 @@ text-align: center;}
 
 #mifoto {
     width: 100%;
-    margin: 10px;
+    margin: 0 auto;
   }
 }
